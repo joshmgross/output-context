@@ -10,5 +10,5 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo ${{ toJson(github) }}
+      run: echo "${{ toJson(github) }}"
 
